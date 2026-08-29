@@ -144,5 +144,5 @@ streamlit run app.py
 This project is licensed for educational and learning purposes.
 
 ---
-### Komal Pandey
+###  Author :- Komal Pandey
 ### ⭐ If you like this project, don't forget to Star this repository!
