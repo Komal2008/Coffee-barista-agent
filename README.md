@@ -9,6 +9,36 @@ An AI-powered Coffee Barista Agent built using **Google Vertex AI**, **Firestore
 🔗 https://coffee-barista-207396891825.asia-south1.run.app
 
 ---
+## 📌 Project Overview
+
+Coffee Barista AI Agent is an AI-powered conversational assistant that helps users discover coffee and beverage options using natural language.
+
+The application combines **Google Vertex AI**, **Firestore Vector Search**, and **Streamlit** to provide intelligent and context-aware coffee recommendations.
+
+Instead of relying only on keyword matching, the system uses **semantic search** to understand the meaning behind a user's query and retrieve relevant menu items.
+
+---
+
+## 🧠 AI & RAG Workflow
+
+The application follows a Retrieval-Augmented Generation (RAG) workflow to provide relevant recommendations.
+
+```text
+User Query
+     ↓
+Generate Text Embedding
+     ↓
+Firestore Vector Search
+     ↓
+Retrieve Relevant Menu Items
+     ↓
+Provide Context to Gemini
+     ↓
+Generate AI Response
+     ↓
+Display Recommendation
+```
+---
 
 ## ✨ Features
 
