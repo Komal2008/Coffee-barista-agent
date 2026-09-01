@@ -144,5 +144,28 @@ streamlit run app.py
 This project is licensed for educational and learning purposes.
 
 ---
-###  Author :- Komal Pandey
-### ⭐ If you like this project, don't forget to Star this repository!
+---
+
+## 👩‍💻 Author
+
+**Komal Pandey**
+
+Computer Science Student | Full Stack Developer | AI & Agentic AI Enthusiast
+
+🔗 GitHub: https://github.com/Komal2008
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving it a ⭐ on GitHub!
+
+---
+
+<div align="center">
+
+### ☕ Built with Python, Vertex AI, Firestore & Google Cloud
+
+**Turning coffee conversations into intelligent recommendations.**
+
+</div>
