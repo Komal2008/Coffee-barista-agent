@@ -37,6 +37,7 @@ An AI-powered Coffee Barista Agent built using **Google Vertex AI**, **Firestore
 
 ---
 
+
 ## 📂 Project Structure
 
 ```text
@@ -50,6 +51,19 @@ Coffee-barista-agent/
 ```
 
 ---
+---
+## 🔐 Environment & Authentication
+
+The application requires Google Cloud authentication to access Vertex AI and Firestore services.
+
+Make sure your Google Cloud project is configured with:
+
+- Vertex AI API
+- Firestore
+- Cloud Run
+- Required IAM permissions
+- Google Cloud credentials
+
 ---
 
 ## 🏗️ System Architecture
