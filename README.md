@@ -50,6 +50,27 @@ Coffee-barista-agent/
 ```
 
 ---
+---
+
+## 🚀 Deployment
+
+The application is deployed on **Google Cloud Run**.
+
+### Deployment Flow
+
+```text
+Python Application
+       ↓
+Google Cloud Build
+       ↓
+Container Image
+       ↓
+Google Cloud Run
+       ↓
+Live Application
+```
+---
+
 
 ## ⚙️ Installation
 
