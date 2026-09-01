@@ -208,14 +208,6 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
-
-**Komal Pandey**
-
-- GitHub: https://github.com/Komal2008
-
----
-
 ## 📄 License
 
 This project is licensed for educational and learning purposes.
