@@ -52,6 +52,48 @@ Coffee-barista-agent/
 ---
 ---
 
+## 🏗️ System Architecture
+
+```text
+                    ┌──────────────────┐
+                    │      User        │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │    Streamlit     │
+                    │   Web Interface  │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │   AI Agent       │
+                    │    agent.py      │
+                    └────────┬─────────┘
+                             │
+                    Generate Embedding
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Firestore Vector │
+                    │      Search      │
+                    └────────┬─────────┘
+                             │
+                    Relevant Menu Items
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │   Vertex AI      │
+                    │     Gemini       │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ AI Recommendation│
+                    └──────────────────┘
+```
+---
+
 ## 🚀 Deployment
 
 The application is deployed on **Google Cloud Run**.
